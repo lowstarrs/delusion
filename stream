@@ -13,7 +13,7 @@ getgenv().Settings = {
     },
     FOV = {
         Visible = true,
-        Radius = 65,
+        Radius = 40,
         Filled = false,
     },
     Checks = {
@@ -60,7 +60,7 @@ getgenv().Settings = {
     },
     Smooth = {
         Smoothness = true,
-        SmoothnessAmount = 0.0150,
+        SmoothnessAmount = 0.8,
     },
     Part = {
         AimPart = "Head",
