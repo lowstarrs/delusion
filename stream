@@ -88,42 +88,7 @@ getgenv().Settings = {
   
     },
     }
---bxvlz's whitelist
-_G.Key = "12944123"
 
-local keys = {
-    "Key1",
-    "Key2",
-    "key3"
-}
-
-local counter = 1
-local keyCheck
-for i,v in pairs(keys) do
-    if counter == #keys then
-    --not whitelisted!
-    keys = ""
-    game.Players.LocalPlayer:Kick("invalid key? lol black ass nigga")
-    else
-        if v == _G.Key then
-            --Whitelisted!
-            print("whitelisted ur black ass")
-            keyCheck = _G.Key
-            keys = ""
-        else
-            counter = counter +1
-        end
-    end
-end
-
-while true do
-    if _G.Key == keyCheck then
-        --Not spoofed
-    else
-        game.Players.LocalPlayer:Kick("nigga stop tryna crack my shi u dirty ass hoe")
-    end
-    wait()
-end
   if not LPH_OBFUSCATED then
     LPH_NO_VIRTUALIZE = function(...)
         return (...)
