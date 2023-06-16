@@ -24,7 +24,7 @@ getgenv().Settings = {
     AutoGunFov = {
         ["Enabled"] = (true), -- // Gun Fov 
         ["Double-Barrel SG"] = {["FOV"] = 34}, -- // Db
-        ["Revolver"] = {["FOV"] = 65}, -- // Rev
+        ["Revolver"] = {["FOV"] = 31}, -- // Rev
         ["SMG"] = {["FOV"] = 23}, -- // Smg
         ["Shotgun"] = {["FOV"] = 20}, -- // Shotgun
         ["Rifle"] = {["FOV"] = 26}, -- // Rifle
